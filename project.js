@@ -2,16 +2,28 @@ const navToBio = document.getElementById('navToBio');
 const navToTechnologies = document.getElementById('navToTechnologies');
 const navToProjects = document.getElementById('navToProjects');
 
+const bioPage = document.getElementById('bioPage');
+const technologiesPage = document.getElementById('technologiesPage');
+const projectsPage = document.getElementById('projectsPage');
+
+
 navToBio.addEventListener('click', () => {
-    document.getElementById('bioHeader').scrollIntoView();
+    const bioPage = document.getElementById('bioPage');
+    bioPage.style.display = 'block';
+    technologiesPage.style.display = 'none';
+    projectsPage.style.display = 'none';
 });
 
 navToTechnologies.addEventListener('click', () => {
-    document.getElementById('technologiesHeader').scrollIntoView();
+    bioPage.style.display = 'none';
+    technologiesPage.style.display = 'block';
+    projectsPage.style.display = 'none';
 });
 
 navToProjects.addEventListener('click', () => {
-    document.getElementById('projectsHeader').scrollIntoView();
+    bioPage.style.display = 'none';
+    technologiesPage.style.display = 'none';
+    projectsPage.style.display = 'block';
 });
 
 const projects = [
