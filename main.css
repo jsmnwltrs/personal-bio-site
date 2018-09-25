@@ -6,3 +6,26 @@ body {
     background-color: violet;
 }
 
+.showBio{
+  display: block;
+}
+
+.hideBio{
+ display: none;
+}
+
+.showTechnologies {
+    display: block;
+}
+
+.hideTechnologies {
+    display: none;
+}
+
+.showProjects {
+    display: block;
+}
+
+.hideProjects {
+    display: none;
+}
