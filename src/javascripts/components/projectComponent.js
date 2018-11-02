@@ -1,25 +1,6 @@
 import $ from 'jquery';
 import projectData from '../data/projectData';
 
-
-$('#navToBio').on('click', () => {
-  $('#bioPage').show();
-  $('#technologiesPage').hide();
-  $('#projectsPage').hide();
-});
-
-$('#navToTechnologies').on('click', () => {
-  $('#bioPage').hide();
-  $('#technologiesPage').show();
-  $('#projectsPage').hide();
-});
-
-$('#navToTechnologies').on('click', () => {
-  $('#bioPage').hide();
-  $('#technologiesPage').hide();
-  $('#projectsPage').show();
-});
-
 const printProjectCards = (projects) => {
   let newString = '';
   projects.forEach((project) => {
@@ -37,15 +18,14 @@ const printProjectCards = (projects) => {
   });
 };
 
-const loadProject = () => {
-  projectData()
+const loadProjects = () => {
+  projectData.initializeProjects()
     .then((projects) => {
       printProjectCards(projects);
-      console.log(projects);
     })
     .catch((error) => {
-      console.error('error on loadProject', error);
+      console.error(error);
     });
 };
 
-export default { loadProject };
+export default { loadProjects };

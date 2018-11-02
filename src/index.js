@@ -2,10 +2,12 @@
 import 'bootstrap';
 
 import './index.scss';
-import loadProject from './javascripts/components/projectComponent';
+import projectComponent from './javascripts/components/projectComponent';
+import events from './javascripts/helpers/event';
 
 const initalizeApp = () => {
-  loadProject();
+  projectComponent.loadProjects();
+  events.bindEvents();
 };
 
 initalizeApp();

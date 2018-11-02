@@ -1,18 +1,17 @@
 import $ from 'jquery';
 
-const loadProjects = () => {
+const initializeProjects = () => {
   const projects = new Promise((resolve, reject) => {
-    $.get('../../../db/projects.json')
+    $.get('https://api.myjson.com/bins/ud3ym')
       .done((data) => {
         resolve(data.projects);
-        console.log(data.projects);
       })
       .fail((error) => {
         reject(error);
-        console.error('error on loadProjects');
+        console.error(error);
       });
   });
   return projects;
 };
 
-export default { loadProjects };
+export default { initializeProjects };
