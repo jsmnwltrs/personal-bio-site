@@ -5,16 +5,17 @@ import 'bootstrap';
 const printProjectCards = (projects) => {
   let newString = '';
   projects.forEach((project) => {
-    newString += '<div class="projects">';
-    newString += `<h4>${project.title}</h4>`;
-    newString += `<img src="${project.screenshot}"/>`;
-    newString += `<p>${project.description}`;
-    newString += `<p>${project.technologiesUsed}</p>`;
-    newString += `<a href='${project.url}>Project Link</a>`;
-    newString += `<a href='${project.githubUrl}>GitHub Link</a>`;
-    newString += '</div>';
+    newString += `<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="${project.screenshot}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">${project.title}</h5>
+    <p class="card-text">${project.description}</p>
+    <a href="${project.url}" class="btn btn-primary">Project Link</a>
+    <a href="${project.githubUrl}" class="btn btn-primary">GitHub Link</a>
+  </div>
+</div>`;
     if (project.available === true) {
-      $('#projectsPage').html(newString);
+      $('#projects').html(newString);
     }
   });
 };

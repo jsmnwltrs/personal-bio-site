@@ -1,9 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-    background-color: tan;
+    background-image: url(./images/cool-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.projects {
-    background-color: violet;
-}
+
