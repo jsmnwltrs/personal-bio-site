@@ -1,5 +1,6 @@
 import $ from 'jquery';
 import projectData from '../data/projectData';
+import 'bootstrap';
 
 const printProjectCards = (projects) => {
   let newString = '';
@@ -20,8 +21,8 @@ const printProjectCards = (projects) => {
 
 const loadProjects = () => {
   projectData.initializeProjects()
-    .then((projects) => {
-      printProjectCards(projects);
+    .then((data) => {
+      printProjectCards(data.data.projects);
     })
     .catch((error) => {
       console.error(error);
