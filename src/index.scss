@@ -1,9 +1,33 @@
 @import "~bootstrap/scss/bootstrap";
 
-body {
-    background-image: url(./images/cool-background.png);
+#namePage {
+    background-image: url(./images/rainweb.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 150px;
+}
+
+h1 {
+    font-size: 500%;
+}
+
+h2{
+    font-size: 250%;
+}
+
+#bioHeader{
+    margin-left: 350px;
+}
+
+#bioPhoto {
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#biotext {
+    margin-top: 20px;
+    font-size: 120%;
 }
 
 
