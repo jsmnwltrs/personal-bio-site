@@ -2,11 +2,7 @@ import $ from 'jquery';
 import 'bootstrap';
 
 const bindEvents = () => {
-  $('#navToBio').on('click', () => {
-    $('#bioPage').show();
-    $('#technologiesPage').hide();
-    $('#projectsPage').hide();
-  });
+  $('#navToBio').animate({ scrollTop: ($('#bioPage').offset().top) }, 500);
   $('#navToTechnologies').on('click', () => {
     $('#bioPage').hide();
     $('#technologiesPage').show();
