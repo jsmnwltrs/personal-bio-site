@@ -1,18 +1,46 @@
 import $ from 'jquery';
 import 'bootstrap';
 
-const bindEvents = () => {
-  $('#navToBio').animate({ scrollTop: ($('#bioPage').offset().top) }, 500);
+const bindScrollEvents = () => {
+  $('#navToMain').on('click', () => {
+    $('html, body').animate({ scrollTop: 0 }, 'slow');
+  });
+  $('#navToBio').on('click', () => {
+    const offset = $('#bioPage').offset();
+    offset.left -= 60;
+    offset.top -= 60;
+    $('html, body').animate({
+      scrollTop: offset.top,
+      scrollLeft: offset.left,
+    });
+  });
   $('#navToTechnologies').on('click', () => {
-    $('#bioPage').hide();
-    $('#technologiesPage').show();
-    $('#projectsPage').hide();
+    const offset = $('#technologiesPage').offset();
+    offset.left -= 60;
+    offset.top -= 60;
+    $('html, body').animate({
+      scrollTop: offset.top,
+      scrollLeft: offset.left,
+    });
   });
   $('#navToProjects').on('click', () => {
-    $('#bioPage').hide();
-    $('#technologiesPage').hide();
-    $('#projectsPage').show();
+    const offset = $('#projectsPage').offset();
+    offset.left -= 60;
+    offset.top -= 60;
+    $('html, body').animate({
+      scrollTop: offset.top,
+      scrollLeft: offset.left,
+    });
+  });
+  $('#navToContacts').on('click', () => {
+    const offset = $('#contactsPage').offset();
+    offset.left -= 60;
+    offset.top -= 60;
+    $('html, body').animate({
+      scrollTop: offset.top,
+      scrollLeft: offset.left,
+    });
   });
 };
 
-export default { bindEvents };
+export default { bindScrollEvents };

@@ -21,9 +21,9 @@ const printProjectCards = (projects) => {
 };
 
 const loadProjects = () => {
-  projectData.initializeProjects()
+  projectData.getProjects()
     .then((data) => {
-      printProjectCards(data.data.projects);
+      printProjectCards(data);
     })
     .catch((error) => {
       console.error(error);
