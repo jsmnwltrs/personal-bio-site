@@ -3,12 +3,15 @@ import 'bootstrap';
 import firebase from 'firebase/app';
 
 import './index.scss';
-import projectComponent from './javascripts/components/projectComponent';
+import buildNavbar from './javascripts/components/Navbar/Navbar';
+import buildBio from './javascripts/components/Bio/Bio';
+import buildTechnologies from './javascripts/components/Technologies/Technologies';
+import buildProjects from './javascripts/components/Projects/Projects';
+import buildContacts from './javascripts/components/Contacts/Contacts';
 import events from './javascripts/helpers/event';
 import apiKeys from '../db/apiKeys.json';
 
 import bioPhoto from './images/spiderhat.jpg';
-
 import spider1 from './images/spider1.jpg';
 import spider2 from './images/spider2.jpg';
 import spider3 from './images/spider3.jpg';
@@ -33,7 +36,11 @@ $('#spider9').attr('src', spider9);
 
 const initalizeApp = () => {
   firebase.initializeApp(apiKeys.firebaseKeys);
-  projectComponent.loadProjects();
+  buildNavbar();
+  buildBio();
+  buildTechnologies();
+  buildProjects();
+  buildContacts();
   events.bindScrollEvents();
 };
 

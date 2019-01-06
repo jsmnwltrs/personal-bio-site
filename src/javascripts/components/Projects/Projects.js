@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import projectData from '../data/projectData';
+import projectData from '../../data/projectData';
 import 'bootstrap';
 
 const printProjectCards = (projects) => {
@@ -20,7 +20,7 @@ const printProjectCards = (projects) => {
   });
 };
 
-const loadProjects = () => {
+const buildProjects = () => {
   projectData.getProjects()
     .then((data) => {
       printProjectCards(data);
@@ -30,4 +30,4 @@ const loadProjects = () => {
     });
 };
 
-export default { loadProjects };
+export default buildProjects;
