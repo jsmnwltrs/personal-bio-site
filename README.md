@@ -2,21 +2,24 @@
 
 This is my personal bio site. It is a site that hosts my main projects and tells others more about myself.
 
-## How to run this project
-* Use npm to install http-server in your terminal:
+### How to run this app
+
+* This app has been deployed to firebase and can be viewed here: https://personal-bio-site-97dc4.firebaseapp.com/
+
+### To run on localhost
+
+* Clone this project down from github and install the web dependencies in the terminal:
 ```sh
-npm install -g http-server
+npm install
 ```
-* Run the server
+* Rename apiKeys.json.example file to apiKeys.json.
+* Create a new project in Firebase and add your api keys to the apiKeys.json
+* Run the server in the terminal:
 ```sh
-hs -p 9999
-```
-* Open chrome and navigate to:
-```
-localhost:9999
+npm start
 ```
 
 ## Screenshots
-
+coming soon!
 ### Homepage
-![main page](biopage.png)
+![main page]()
