@@ -1,5 +1,11 @@
 import $ from 'jquery';
 
+import bioPhoto from '../../../images/spiderhat.jpg';
+
+const loadImages = () => {
+  $('#bioPhoto').attr('src', bioPhoto);
+};
+
 const buildBio = () => {
   const domString = `    <h2 id="bioHeader" class="d-flex justify-content-center mt-4">Biography</h2>
   <div class="d-flex flex-row">
@@ -18,6 +24,7 @@ const buildBio = () => {
 </p>
 </div>`;
   $('#bioPage').html(domString);
+  loadImages();
 };
 
 export default buildBio;
