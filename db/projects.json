@@ -1,31 +1,31 @@
 {
   "projects" : {
     "project1" : {
-      "title": "Cool Project",
-      "screenshot": "",
-      "description": "This is the best project",
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "title": "Developer Portal",
+      "screenshot": "../../../images/dev-portal.jpg",
+      "description": "This project was an introduction to creating a one page application with React. A user can login with their Github profile and create, update and delete items that store useful links and organize them into 4 separate tabs. Some of the user's github information also displays.",
+      "technologiesUsed": "HTML, SASS, React.js, Version Control with Github, Auth, Data Management, and Deployment in Firebase",
       "available": true,
-      "url": "https://github.com/nss-evening-cohort-8/js-part-deux", 
-      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+      "url": "https://developer-portal-58b36.firebaseapp.com/", 
+      "githubUrl": "https://github.com/jsmnwltrs/developer-portal"
     },
     "project2": {
-      "title": "Puppies!",
-      "screenshot": "",
-      "description": "This is the most amazing project", 
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "title": "Shotz",
+      "screenshot": "../../../images/shotz.jpg",
+      "description": "This is a project where I practiced using promises in javascript to call and manipulate data. I created a website to house cast members and shooting locations for multiple movies. The cast members and locations both have a search function that filters the data that displays. Clicking on one of the available movies will load the cast and locations for that movie.", 
+      "technologiesUsed": "HTML, CSS, JQuery, Version Control with Github, Deployed in Firebase",
       "available": true,
-      "url": "https://github.com/nss-evening-cohort-8/js-part-deux", 
-      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+      "url": "https://shotz-68ce8.firebaseapp.com", 
+      "githubUrl": "https://github.com/jsmnwltrs/shotz"
     },
     "project3": {
-      "title": "Cool Project",
-      "screenshot": "",
-      "description": "This is the best project", 
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-      "available": false,
-      "url": "https://github.com/nss-evening-cohort-8/js-part-deux", 
-      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+      "title": "Nutshell",
+      "screenshot": "../../images/nutshell.jpg",
+      "description": "This project was a group effort to create a single web page application with multiple components. Each team member had to write all the code for one component. All of the components had to include complete CRUD on their data collections. I built the weather portion using a weather API.", 
+      "technologiesUsed": "HTML, CSS, JQuery, Version Control with Github, Auth, Data Management, and Deployment in Firebase",
+      "available": true,
+      "url": "https://nutshell-mongos.firebaseapp.com/",
+      "githubUrl": "https://github.com/nss-evening-cohort-8/nutshell-mongongos"
     }
   }
 }

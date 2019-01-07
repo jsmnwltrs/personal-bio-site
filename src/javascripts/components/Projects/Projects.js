@@ -1,12 +1,22 @@
 import $ from 'jquery';
-import projectData from '../data/projectData';
+import projectData from '../../data/projectData';
 import 'bootstrap';
+
+import project1 from '../../../images/dev-portal.jpg';
+import project2 from '../../../images/shotz.jpg';
+import project3 from '../../../images/nutshell.jpg';
+
+const loadImages = () => {
+  $('img.project1').attr('src', project1);
+  $('img.project2').attr('src', project2);
+  $('img.project3').attr('src', project3);
+};
 
 const printProjectCards = (projects) => {
   let newString = '';
   projects.forEach((project) => {
     newString += `<div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="${project.screenshot}" alt="Card image cap">
+  <img class="card-img-top ${project.id}" src="${project.screenshot}" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">${project.title}</h5>
     <p class="card-text">${project.description}</p>
@@ -18,9 +28,10 @@ const printProjectCards = (projects) => {
       $('#projects').html(newString);
     }
   });
+  loadImages();
 };
 
-const loadProjects = () => {
+const buildProjects = () => {
   projectData.getProjects()
     .then((data) => {
       printProjectCards(data);
@@ -30,4 +41,4 @@ const loadProjects = () => {
     });
 };
 
-export default { loadProjects };
+export default buildProjects;
