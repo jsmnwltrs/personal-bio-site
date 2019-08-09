@@ -1,7 +1,7 @@
 import $ from 'jquery';
 
 const buildNavbar = () => {
-  const domString = `<nav sticky class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  const domString = `<nav sticky class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" id="navToMain">Jasmine Walters</a>
   <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
     <ul class="navbar-nav">

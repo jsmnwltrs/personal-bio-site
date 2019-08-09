@@ -26,8 +26,8 @@
     },
     "project4": {
       "title": "Skull and Daisy",
-      "screenshot": "https://firebasestorage.googleapis.com/v0/b/jasmine-walters-bio.appspot.com/o/skullPic.JPG?alt=media&token=29fb6807-c688-4669-80a3-768c310ee896",
-      "description": "Skull & Daisy is the storefront webapp for all your new agey psychobabble needs. As this was designed as an Amazon clone, when users register for a Skull & Daisy account, they are registered as both buyers and sellers. Within the app users are able to search and browse for various potions, poisons, herbs and healing crystals. Likewise, they can do the same for other sellers visiting different storefronts within the app. As sellers, users are presented with seller management tools which allows them to manage their inventory, see monthly and total sales figures, and also manage their pending shipments.", 
+      "screenshot": "https://firebasestorage.googleapis.com/v0/b/jasmine-walters-bio.appspot.com/o/skullPic.JPG?alt=media&token=d7687b7b-4dec-474f-8ff9-3fcaf86dbb67",
+      "description": "Skull & Daisy was a group effort to create a storefront webapp for all your new agey psychobabble needs. As this was designed as an Amazon clone, when users register for a Skull & Daisy account, they are registered as both buyers and sellers. Within the app users are able to search and browse for various potions, poisons, herbs and healing crystals. Likewise, they can do the same for other sellers visiting different storefronts within the app. As sellers, users are presented with seller management tools which allows them to manage their inventory, see monthly and total sales figures, and also manage their pending shipments.", 
       "technologiesUsed": "HTML, Sass, React, C#/.Net, Reactstrap, Dapper, MVC, SSMS, Version Control with Github",
       "available": true,
       "githubUrl": "https://github.com/skullanddaisy/SkullAndDaisy"

@@ -9,7 +9,7 @@ const loadImages = () => {
 const buildTechnologies = () => {
   const domString = `
   <div>
-    <h2>Technologies</h2>
+    <h2 class='technology-header'>Technologies</h2>
     <img id="techPhoto">
   </div>`;
   $('#technologiesPage').html(domString);
