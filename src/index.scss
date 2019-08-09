@@ -1,11 +1,20 @@
 @import "~bootstrap/scss/bootstrap";
 
+#navbar {
+    position: sticky
+}
+
 #namePage {
     background-image: url(./images/rainweb.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 150px;
 }
+
+.nameText {
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+
 
 h1 {
     font-size: 500%;
@@ -23,18 +32,34 @@ h2{
     border-radius: 50%;
     margin-right: 20px;
     margin-left: 20px;
-    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-top: -30px;
     height: 300px;
-}
-
-#technologiesPage {
-    background-image: url(./images/dragonfly.jpg);
-    background-repeat: no-repeat;
 }
 
 #biotext {
     margin-top: 20px;
+    margin-left: 20px;
     font-size: 120%;
+}
+
+.technology-header {
+    margin-left: 820px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#techPhoto {
+    margin-left: 430px;
+    height: 600px;
+    width: 1000px;
+    margin-bottom: 30px;
+}
+
+
+.logo {
+    width: 40px;
+    height: 40px;
 }
 
 .spiderImage {
@@ -42,8 +67,12 @@ h2{
     width: 100px;
     border-radius: 50%;
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 45px;
     margin-top: 40px;
+}
+
+.page-footer {
+    background-color: rgb(254, 219, 161);
 }
 
 
