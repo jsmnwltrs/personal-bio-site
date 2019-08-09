@@ -1,5 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
 
+.navbar {
+    position: sticky
+}
+
 #namePage {
     background-image: url(./images/rainweb.jpg);
     background-repeat: no-repeat;
@@ -25,11 +29,6 @@ h2{
     margin-left: 20px;
     margin-top: 40px;
     height: 300px;
-}
-
-#technologiesPage {
-    background-image: url(./images/dragonfly.jpg);
-    background-repeat: no-repeat;
 }
 
 #biotext {

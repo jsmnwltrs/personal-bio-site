@@ -24,7 +24,14 @@ const loadImages = () => {
 
 const buildContacts = () => {
   const domString = `   <h3 class="d-flex justify-content-center">Contact Me</h3>
-  <a href="https://github.com/jsmnwltrs">My GitHub Account</a>
+  <img id='phoneLogo'/>
+  <p>615-856-9424<p>
+  <img id='emailLogo'/>
+  <p>jsmnwltrs@gmail.com<p>
+  <img id='linkedInLogo'/>
+  <a href="https://www.linkedin.com/in/jasmine-walters/">https://www.linkedin.com/in/jasmine-walters/</a>
+  <img id='gihubLogo'/>
+  <a href="https://github.com/jsmnwltrs">https://github.com/jsmnwltrs</a>
   <p>Email: jsmnwltrs@gmail.com</p>
   <div id="spiderImages" class="d-flex flex-row">
     <img id="spider1" class="spiderImage" src="" alt="">

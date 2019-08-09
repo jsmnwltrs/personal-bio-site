@@ -1,31 +1,36 @@
 {
   "projects" : {
     "project1" : {
-      "title": "Developer Portal",
-      "screenshot": "../../../images/dev-portal.jpg",
-      "description": "This project was an introduction to creating a one page application with React. A user can login with their Github profile and create, update and delete items that store useful links and organize them into 4 separate tabs. Some of the user's github information also displays.",
+      "title": "Anime Showdown",
+      "screenshot": "https://firebasestorage.googleapis.com/v0/b/jasmine-walters-bio.appspot.com/o/animePic.JPG?alt=media&token=2791bfe5-34f0-4e4f-804d-a62aa4e2a326",
+      "description": "Anime Showdown is a game where players can collect anime characters and fight bosses. It provides fun, interactive game play for anyone's entertainment.  Players can collect and level up anime characters with game tokens and build teams with their collection to defeat bosses. Characters have different classes that determine base stats. Each boss has a set number of tokens that are rewarded when they are defeated . During a boss battle, attack and heal modifiers are applied for unanticipated outcomes. Anime Showdown was built using the React.js library. The application is hosted in Firebase and has full CRUD implemented. User registration and authentication is included to store the player's game data. Bootstrap and Sass is utilized for styling.",
       "technologiesUsed": "HTML, SASS, React.js, Version Control with Github, Auth, Data Management, and Deployment in Firebase",
       "available": true,
-      "url": "https://developer-portal-58b36.firebaseapp.com/", 
-      "githubUrl": "https://github.com/jsmnwltrs/developer-portal"
+      "githubUrl": "https://github.com/jsmnwltrs/anime-showdown"
     },
     "project2": {
-      "title": "Shotz",
-      "screenshot": "../../../images/shotz.jpg",
-      "description": "This is a project where I practiced using promises in javascript to call and manipulate data. I created a website to house cast members and shooting locations for multiple movies. The cast members and locations both have a search function that filters the data that displays. Clicking on one of the available movies will load the cast and locations for that movie.", 
-      "technologiesUsed": "HTML, CSS, JQuery, Version Control with Github, Deployed in Firebase",
+      "title": "Monster Monitor",
+      "screenshot": "https://firebasestorage.googleapis.com/v0/b/jasmine-walters-bio.appspot.com/o/monmonPic.JPG?alt=media&token=ac6ea733-027e-41a4-a8e4-bc82383896d8",
+      "description": "Monster Monitor is a public app that allows users to document and view monster sightings within their area. Any user can post and update their own monster sightings. Users can browse all sightings and filter results. A map view is also available to see sightings posted near a user's location or their loved ones. The map displays markers of the sighting locations that can be clicked to open the sighting details. The details show crucial information such as threat level, location, images, post date and more. Each sighting has a comment section to keep open discussions while the monster is active. Monster Monitor was built using C#/.NET and the React.js library. SSMS is used to host the database.  Firebase is used for user registration and authentiacation. Leaflet was used for the map.", 
+      "technologiesUsed": "HTML, Sass, React, C#/.Net, Reactstrap, Dapper, MVC, SSMS, Leaflet, Version Control with Github",
       "available": true,
-      "url": "https://shotz-68ce8.firebaseapp.com", 
-      "githubUrl": "https://github.com/jsmnwltrs/shotz"
+      "githubUrl": "https://github.com/jsmnwltrs/MonsterMonitor"
     },
     "project3": {
-      "title": "Nutshell",
-      "screenshot": "../../images/nutshell.jpg",
-      "description": "This project was a group effort to create a single web page application with multiple components. Each team member had to write all the code for one component. All of the components had to include complete CRUD on their data collections. I built the weather portion using a weather API.", 
-      "technologiesUsed": "HTML, CSS, JQuery, Version Control with Github, Auth, Data Management, and Deployment in Firebase",
+      "title": "Pathetic Connect",
+      "screenshot": "https://firebasestorage.googleapis.com/v0/b/jasmine-walters-bio.appspot.com/o/patheticPic.JPG?alt=media&token=400cadda-99f4-48b0-aebd-4d217e91b33a",
+      "description": "This project was a group effort to create a single web page application with multiple components. Each team member had to write all the code for one component. All of the components had to include complete CRUD on their data collections. I  was responsible for the weather component which utilized the weatherbit API.", 
+      "technologiesUsed": "HTML, CSS, JQuery, Version Control with Github, Auth, and Deployment in Firebase",
       "available": true,
-      "url": "https://nutshell-mongos.firebaseapp.com/",
       "githubUrl": "https://github.com/nss-evening-cohort-8/nutshell-mongongos"
+    },
+    "project4": {
+      "title": "Skull and Daisy",
+      "screenshot": "https://firebasestorage.googleapis.com/v0/b/jasmine-walters-bio.appspot.com/o/skullPic.JPG?alt=media&token=29fb6807-c688-4669-80a3-768c310ee896",
+      "description": "Skull & Daisy is the storefront webapp for all your new agey psychobabble needs. As this was designed as an Amazon clone, when users register for a Skull & Daisy account, they are registered as both buyers and sellers. Within the app users are able to search and browse for various potions, poisons, herbs and healing crystals. Likewise, they can do the same for other sellers visiting different storefronts within the app. As sellers, users are presented with seller management tools which allows them to manage their inventory, see monthly and total sales figures, and also manage their pending shipments.", 
+      "technologiesUsed": "HTML, Sass, React, C#/.Net, Reactstrap, Dapper, MVC, SSMS, Version Control with Github",
+      "available": true,
+      "githubUrl": "https://github.com/skullanddaisy/SkullAndDaisy"
     }
   }
 }
